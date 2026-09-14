@@ -1,0 +1,52 @@
+{
+  "config": {
+    "target": "gaussian",
+    "input_npz": null,
+    "method": "full",
+    "normalizer": "rayleigh",
+    "grid": 110,
+    "half_width": 3.0,
+    "wavelength": 1.15,
+    "n_min": 1.0,
+    "n_max": 3.44,
+    "iterations": 300,
+    "learning_rate": 0.02,
+    "lambda_tv": 1e-06,
+    "lambda_bound": 0.0,
+    "tv_delta": 1e-06,
+    "tol": 0.005,
+    "plateau_window": 20,
+    "plateau_rel": 0.0005,
+    "min_iterations": 300,
+    "init": "target",
+    "seed": 0,
+    "verify": true
+  },
+  "stage1": {
+    "stop_reason": "max_iterations",
+    "iterations_completed": 300,
+    "elapsed_s": 2.7433087000390515,
+    "NFR": 0.014410048593110033,
+    "E_x": 0.014343912993759676,
+    "E_y": 0.0013790070642475886,
+    "delta_u": 0.0006476840289490244,
+    "projected_gradient": 0.00047515665977473096,
+    "F_data": 0.00020764950045579244,
+    "F_regularizer": 0.0027213171772816186,
+    "F_total": 0.002928966677737411,
+    "data_gradient_norm": 2.2285947126828057e-05,
+    "regularizer_gradient_norm": 0.0004876359451837953
+  },
+  "verification": {
+    "available": true,
+    "n_eff": 1.5738488180006143,
+    "beta2": 73.94181053286194,
+    "eps_I": 0.01639397325911933,
+    "SSIM": 0.9942304901308227,
+    "polarization_purity": 0.502231830704441,
+    "dominant_component": "y",
+    "elapsed_s": 31.574234499945305,
+    "Ho_x": null,
+    "Ho_y": null
+  }
+}
