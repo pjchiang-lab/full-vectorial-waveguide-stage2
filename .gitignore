@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.idea/
+.vscode/
+outputs/
+*_stage2_metrics.json
+*_stage2_fields.npz
+*.log
+
