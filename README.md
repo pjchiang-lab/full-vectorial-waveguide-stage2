@@ -1,5 +1,7 @@
 # Full-Vectorial Waveguide Stage-2 Verification
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22744670.svg)](https://doi.org/10.5281/zenodo.22744670)
+
 Reproducibility repository for the independent Stage-2 eigenmode verification
 used in the JSTQE manuscript:
 
@@ -156,8 +158,10 @@ manuscript equations is summarized in
 ## Citation
 
 Please cite the final JSTQE article when its volume, pages, and DOI are
-available. Until then, cite the manuscript title and ID shown above and state
-the repository revision or commit used.
+available. The fixed software release used for the revision is:
+
+> pjchiang-lab, "Stage 2 eigenmode verifier v1.0.0," Zenodo, 2026,
+> doi: [10.5281/zenodo.22744670](https://doi.org/10.5281/zenodo.22744670).
 
 ## License
 
